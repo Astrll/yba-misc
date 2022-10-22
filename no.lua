@@ -69,4 +69,3 @@ function Teleport()
 	end
 end
 
-Teleport()
