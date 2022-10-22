@@ -56,7 +56,7 @@ function TPReturner()
     end
 end
 
-function Teleport()
+function TP()
     while wait() do
         pcall(function()
             TPReturner()
