@@ -26,7 +26,7 @@ function TPReturner()
 	for i,v in pairs(Site.data) do
 		local Possible = true
 		ID = tostring(v.id)
-		if 10 > tonumber(v.playing then
+		if 10 < tonumber(v.playing) and 4 > tonumber(v.playing) then
 			for _,Existing in pairs(AllIDs) do
 				if num ~= 0 then
 					if ID == tostring(Existing) then
